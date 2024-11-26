@@ -1,0 +1,10 @@
+com.mula.kmpapp.shared-lifecycle-viewmodel-release-0 /Users/julioluque/.gradle/caches/transforms-4/711313f3e289302a7ff4c44e5a391736/transformed/lifecycle-viewmodel-release/res
+com.mula.kmpapp.shared-pngs-1 /Users/julioluque/StudioProjects/Mula_Fronted/shared/build/generated/res/pngs/release
+com.mula.kmpapp.shared-resValues-2 /Users/julioluque/StudioProjects/Mula_Fronted/shared/build/generated/res/resValues/release
+com.mula.kmpapp.shared-mergeReleaseResources-3 /Users/julioluque/StudioProjects/Mula_Fronted/shared/build/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.mula.kmpapp.shared-mergeReleaseResources-4 /Users/julioluque/StudioProjects/Mula_Fronted/shared/build/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.mula.kmpapp.shared-release-5 /Users/julioluque/StudioProjects/Mula_Fronted/shared/build/intermediates/merged_res/release/mergeReleaseResources
+com.mula.kmpapp.shared-androidMain-6 /Users/julioluque/StudioProjects/Mula_Fronted/shared/src/androidMain/res
+com.mula.kmpapp.shared-androidRelease-7 /Users/julioluque/StudioProjects/Mula_Fronted/shared/src/androidRelease/res
+com.mula.kmpapp.shared-main-8 /Users/julioluque/StudioProjects/Mula_Fronted/shared/src/main/res
+com.mula.kmpapp.shared-release-9 /Users/julioluque/StudioProjects/Mula_Fronted/shared/src/release/res
