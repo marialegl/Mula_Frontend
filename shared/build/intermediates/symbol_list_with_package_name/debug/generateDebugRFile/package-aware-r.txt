@@ -1,1 +1,0 @@
-com.mula.kmpapp.shared

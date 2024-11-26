@@ -1,0 +1,53 @@
+# Android/Gradle
+/build/
+.gradle/
+local.properties
+
+# IntelliJ/Android Studio
+.idea/
+*.iml
+*.hprof
+
+# Logs y archivos temporales del sistema operativo
+*.log
+.DS_Store
+Thumbs.db
+
+# Caché de Gradle
+**/.gradle
+/caches/
+/wrapper/dists/
+
+# Archivos de configuración del entorno
+*.env
+.env.local
+
+# Archivos específicos de compilación
+**/build/
+**/out/
+**/tmp/
+*.apk
+*.ap_
+
+# Archivos específicos de Kotlin Multiplatform
+*.kts.lock
+*.podspec.lock
+Pods/
+DerivedData/
+xcuserdata/
+
+# Configuración de dispositivos de prueba
+.emulator_console_auth_token
+
+# Backups de configuración
+*.orig
+*.bak
+
+# Archivos de configuración de ejecución de Android Studio
+*.run/
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/libraries/
+.idea/vcs.xml
+.idea/modules.xml

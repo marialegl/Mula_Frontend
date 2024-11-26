@@ -1,6 +1,0 @@
-com.mula.kmpapp.shared.test.shared-lifecycle-viewmodel-release-0 /Users/julioluque/.gradle/caches/transforms-4/711313f3e289302a7ff4c44e5a391736/transformed/lifecycle-viewmodel-release/res
-com.mula.kmpapp.shared.test.shared-androidTest-1 /Users/julioluque/StudioProjects/Mula_Fronted/shared/build/generated/res/resValues/androidTest/debug
-com.mula.kmpapp.shared.test.shared-mergeDebugAndroidTestResources-2 /Users/julioluque/StudioProjects/Mula_Fronted/shared/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
-com.mula.kmpapp.shared.test.shared-mergeDebugAndroidTestResources-3 /Users/julioluque/StudioProjects/Mula_Fronted/shared/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
-com.mula.kmpapp.shared.test.shared-debugAndroidTest-4 /Users/julioluque/StudioProjects/Mula_Fronted/shared/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
-com.mula.kmpapp.shared.test.shared-debug-5 /Users/julioluque/StudioProjects/Mula_Fronted/shared/build/intermediates/packaged_res/debug/packageDebugResources

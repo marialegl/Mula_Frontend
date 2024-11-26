@@ -1,2 +1,0 @@
-com.mula.kmpapp.shared.test
-id view_tree_view_model_store_owner
