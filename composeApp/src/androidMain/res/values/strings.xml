@@ -1,38 +1,22 @@
 <resources>
 
     <!-- strings.xml -->
-    <string name="my_list">
-        My list
-    </string>
+    <string name="my_list">My list</string>
 
-    <string name="discounts">
-        Discounts
-    </string>
+    <string name="discounts">Discounts</string>
 
-    <string name="coming">
-        Coming
-    </string>
+    <string name="coming">Coming</string>
 
-    <string name="bresil_mogi">
-        bresil mogiana - nature
-    </string>
+    <string name="bresil_mogi">bresil mogiana - nature</string>
 
-    <string name="kg_partir_d">
-        23\u00e2\u0082\u00ac/KG \u00c3\u00a0 partir de 10kg
-    </string>
+    <string name="kg_partir_d">23\u00e2\u0082\u00ac/KG \u00c3\u00a0 partir de 10kg</string>
 
-    <string name="nature">
-        NATURE
-    </string>
+    <string name="nature">NATURE</string>
 
-    <string name="espresso">
-        ESPRESSO
-    </string>
+    <string name="espresso">ESPRESSO</string>
 
     <!-- strings.xml -->
-    <string name="chocolat">
-        CHOCOLAT
-    </string>
+    <string name="chocolat">CHOCOLAT</string>
 
     <string name="add">
         ADD
@@ -161,6 +145,15 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <string name="rv_images_product_description">Product Image List</string>
+    <string name="exotique">Exotique</string>
+    <string name="filtre">Filtre</string>
+    <string name="nicaragua">Nicaragua</string>
+    <string name="anaerobique">Anaerobique</string>
+    <string name="fruite">Fruite</string>
+    <string name="colombie">Colombie</string>
+    <string name="lav">Lavé</string>
+    <string name="spresso">Spresso</string>
+    <string name="bresil">Bresil</string>
 
 
 </resources>
