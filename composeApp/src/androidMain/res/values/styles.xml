@@ -1,3 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <style name="discounts">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#19191B</item>
+    </style>
+
+    <style name="coming">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#19191B</item>
+    </style>
+
+    <style name="bresil_mogi">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="kg_partir_d">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="nature">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="bresil">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="espresso">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="chocolat">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="add">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="my_orders">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#19191B</item>
+    </style>
+
+    <style name="Let_sGetS">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/avenir</item>
+    </style>
+
+    <style name="Continue">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:fontFamily">@font/avenir</item>
+    </style>
+
+    <style name="label">
+        <item name="android:textSize">20sp</item>
+        <item name="android:letterSpacing">-0.03</item>
+        <item name="android:textColor">#AFB1B6</item>
+    </style>
+
+    <style name="ordered_aga">
+        <item name="android:textSize">30sp</item>
+        <item name="android:textColor">@color/textColor</item>
+    </style>
+
+    <style name="delivery_da">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+
+    <style name="adipiscing_">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="adipiscing_1">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="sit_tempor_">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="sit_tempor_1">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="new_product">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#19191B</item>
+    </style>
+
+    <style name="stories_abo">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">#19191B</item>
+    </style>
+
+
 </resources>

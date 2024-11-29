@@ -1,4 +1,35 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Home -->
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/home"
+        android:title="Home"/>
+
+    <!-- Explore -->
+    <item
+        android:id="@+id/nav_explore"
+        android:icon="@drawable/explore"
+        android:title="Explore"/>
+
+    <!-- Shop -->
+    <item
+        android:id="@+id/nav_shop"
+        android:icon="@drawable/shop"
+        android:title="Shop"/>
+
+    <!-- Inbox -->
+    <item
+        android:id="@+id/nav_inbox"
+        android:icon="@drawable/inbox"
+        android:title="Inbox"/>
+
+    <!-- Orders -->
+    <item
+        android:id="@+id/nav_orders"
+        android:icon="@drawable/buy"
+        android:title="Orders" />
 
 </menu>

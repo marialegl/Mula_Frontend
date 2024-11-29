@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/group_op"
+        android:checkableBehavior="single">
+
+        <!--Start Menu-->
+        <item
+            android:id="@+id/op_home_c"
+            android:title="@string/op_home_c"
+            android:icon="@drawable/ico_home"
+            />
+
+        <!--My profile-->
+        <item
+            android:id="@+id/op_my_profile_c"
+            android:title="@string/op_my_profile_c"
+            android:icon="@drawable/ico_my_profile"
+            />
+
+    </group>
+
+    <!--Logout-->
+    <item
+        android:id="@+id/op_logout_c"
+        android:title="@string/op_logout_c"
+        android:icon="@drawable/ico_logout"
+        />
+
+</menu>

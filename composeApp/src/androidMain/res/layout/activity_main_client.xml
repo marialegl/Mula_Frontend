@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <!-- Include fragment -->
+    <include
+        layout="@layout/fragment_home_c"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Include toolbar -->
+    <include
+        layout="@layout/toolbar"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_home_c"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Last Orders Section -->
+    <TextView
+        android:id="@+id/lastOrdersLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Last orders"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+    <HorizontalScrollView
+        android:id="@+id/lastOrdersScroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:scrollbars="none"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lastOrdersLabel">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <!-- Example Order -->
+            <LinearLayout
+                android:id="@+id/order1"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/button_border"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/delivery_da"
+                    android:layout_width="106dp"
+                    android:layout_height="30dp"
+                    android:textSize="12sp"
+                    android:text="@string/delivery_da"
+                    android:textAppearance="@style/delivery_da"
+                    android:gravity="center" />
+
+                <TextView
+                    android:id="@+id/ordered_again"
+                    android:layout_width="100dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_pink"
+                    android:padding="4dp"
+                    android:text="@string/ordered_aga"
+                    android:textColor="@color/textColor"
+                    android:textSize="12sp"
+                    android:textAppearance="@style/ordered_aga"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+            <!-- Ejemplo de orden 1 -->
+            <LinearLayout
+                android:id="@+id/order1"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/button_border"
+                android:orientation="vertical"
+                android:padding="8dp"
+                tools:ignore="DuplicateIds">
+
+                <TextView
+                    android:id="@+id/delivery_da"
+                    android:layout_width="106dp"
+                    android:layout_height="30dp"
+                    android:textSize="12sp"
+                    android:text="@string/delivery_da"
+                    android:textAppearance="@style/delivery_da"
+                    android:gravity="center"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:id="@+id/ordered_again"
+                    android:layout_width="100dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_pink"
+                    android:padding="4dp"
+                    android:textColor="@color/textColor"
+                    android:textSize="12sp"
+                    android:text="@string/ordered_aga"
+                    android:textAppearance="@style/ordered_aga"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+            <!-- Ejemplo de orden 2 -->
+            <LinearLayout
+                android:id="@+id/order2"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/button_border"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/delivery_da"
+                    android:layout_width="106dp"
+                    android:layout_height="30dp"
+                    android:textSize="12sp"
+                    android:text="@string/delivery_da"
+                    android:textAppearance="@style/delivery_da"
+                    android:gravity="center"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:id="@+id/ordered_again"
+                    android:layout_width="100dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_pink"
+                    android:padding="4dp"
+                    android:textColor="@color/textColor"
+                    android:textSize="12sp"
+                    android:text="@string/ordered_aga"
+                    android:textAppearance="@style/ordered_aga"
+                    android:gravity="center"
+                    tools:ignore="DuplicateIds" />
+            </LinearLayout>
+
+            <!-- Ejemplo de orden 3 -->
+            <LinearLayout
+                android:id="@+id/order3"
+                android:layout_width="120dp"
+                android:layout_height="80dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/button_border"
+                android:orientation="vertical"
+                android:padding="8dp">
+
+                <TextView
+                    android:id="@+id/delivery_da"
+                    android:layout_width="106dp"
+                    android:layout_height="30dp"
+                    android:textSize="12sp"
+                    android:text="@string/delivery_da"
+                    android:textAppearance="@style/delivery_da"
+                    android:gravity="center"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:id="@+id/ordered_again"
+                    android:layout_width="100dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/button_pink"
+                    android:padding="4dp"
+                    android:textColor="@color/textColor"
+                    android:textSize="12sp"
+                    android:text="@string/ordered_aga"
+                    android:textAppearance="@style/ordered_aga"
+                    android:gravity="center"
+                    tools:ignore="DuplicateIds" />
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <!-- Stories Section -->
+    <TextView
+        android:id="@+id/storiesLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Stories about producers"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/lastOrdersScroll" />
+
+    <LinearLayout
+        android:id="@+id/storiesContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintTop_toBottomOf="@id/storiesLabel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:background="@drawable/button_border">
+
+            <ImageView
+                android:id="@+id/storyImageStory"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/image"
+                android:contentDescription="Story Image" />
+
+            <TextView
+                android:id="@+id/storyTitleStory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Adipiscing aliquam scelerisque"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/storyDescriptionStory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Sit tempor in egestas eget risus fames massa."
+                android:textColor="#666666"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- New Products Section -->
+    <TextView
+        android:id="@+id/newProductsLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="New Products"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/storiesContainer" />
+
+    <LinearLayout
+        android:id="@+id/newProductsContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintTop_toBottomOf="@id/newProductsLabel"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:background="@drawable/button_border">
+
+            <ImageView
+                android:id="@+id/newProductImage"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/image"
+                android:contentDescription="New Product Image" />
+
+            <TextView
+                android:id="@+id/newProductTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="Product Title"
+                android:textColor="#000000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/newProductDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="Description about the new product."
+                android:textColor="#666666"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

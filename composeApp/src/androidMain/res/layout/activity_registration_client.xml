@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".client.RegistrationClientActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+        
+        <TextView
+            android:text="@string/txtRegistrationC"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:src="@drawable/client_registration"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"/>
+
+        <!--Identification number-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/etIdC"
+                android:hint="@string/etIdC"
+                android:drawableStart="@drawable/ico_id_number"
+                android:drawablePadding="5dp"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_button"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--Names-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/etNameC"
+                android:hint="@string/etNameC"
+                android:drawableStart="@drawable/ico_full_name"
+                android:drawablePadding="5dp"
+                android:inputType="textPersonName|textCapWords"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_button"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--Email-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/etEmailC"
+                android:hint="@string/etEmailC"
+                android:drawableStart="@drawable/ico_email"
+                android:drawablePadding="5dp"
+                android:inputType="textEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_button"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--Phone number-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/etPhoneC"
+                android:hint="@string/etPhoneC"
+                android:drawableStart="@drawable/ico_phone"
+                android:drawablePadding="5dp"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_button"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--Address-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/etAddressC"
+                android:hint="@string/etAddressC"
+                android:drawableStart="@drawable/ico_address"
+                android:drawablePadding="5dp"
+                android:inputType="textPostalAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_button"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--Password-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="password_toggle">
+
+            <EditText
+                android:id="@+id/etPasswordC"
+                android:hint="@string/etPasswordC"
+                android:drawableStart="@drawable/ico_password"
+                android:drawablePadding="5dp"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_button"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--Confirm password-->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:endIconMode="password_toggle">
+
+            <EditText
+                android:id="@+id/etConfirmPasswordC"
+                android:hint="@string/etConfirmPasswordC"
+                android:drawableStart="@drawable/ico_confirm_password"
+                android:drawablePadding="5dp"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/icon_button"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!--Register client button-->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnRegisterC"
+            android:text="@string/btnRegisterC"
+            android:textAllCaps="true"
+            app:cornerRadius="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".client.Bottom_Nav_Fragments_Client.FragmentMyOrdersC">
+
+    <!-- Include fragment -->
+    <include
+        layout="@layout/fragment_home_c"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Include toolbar -->
+    <include
+        layout="@layout/toolbar"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_home_c"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:id="@+id/op_my_orders_c"
+        android:layout_width="414dp"
+        android:layout_height="896dp"
+        android:clipToOutline="true">
+
+        <TextView
+            android:id="@+id/my_orders"
+            android:layout_width="77dp"
+            android:layout_height="28dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="24dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="122dp"
+            android:text="@string/my_list"
+            android:textAppearance="@style/my_orders"
+            android:lineSpacingExtra="14sp"
+            android:translationY="-7.2sp"
+            android:gravity="center_horizontal|top"
+            />
+
+        <TextView
+            android:id="@+id/discounts"
+            android:layout_width="100dp"
+            android:layout_height="28dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="151dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="122dp"
+            android:text="@string/discounts"
+            android:textAppearance="@style/coming"
+            android:lineSpacingExtra="14sp"
+            android:translationY="-7.2sp"
+            android:gravity="center_horizontal|top"
+
+            />
+
+        <TextView
+            android:id="@+id/coming"
+            android:layout_width="100dp"
+            android:layout_height="28dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="282dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="122dp"
+            android:text="@string/coming"
+            android:textAppearance="@style/coming"
+            android:lineSpacingExtra="14sp"
+            android:translationY="-7.2sp"
+            android:gravity="center_horizontal|top"
+            />
+
+    </RelativeLayout>
+
+    <!-- Card de producto -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="140dp"
+        android:padding="10dp"
+        android:layout_margin="12dp"
+        android:elevation="4dp"
+        android:layout_marginVertical="center">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/button_border">
+
+            <TextView
+                android:id="@+id/product_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_margin="10dp"
+                tools:text="Brasil Mogiana - Nature" />
+
+            <TextView
+                android:id="@+id/product_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="23€/KG à partir de 10kg" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:padding="4dp"
+                    android:text="Nature"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:padding="4dp"
+                    android:text="Bresil"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:padding="4dp"
+                    android:text="Espresso"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:padding="4dp"
+                    android:text="Chocolat"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/add_button"
+                android:layout_width="300dp"
+                android:layout_height="35"
+                android:layout_gravity="center"
+                android:text="ADD" />
+
+        </LinearLayout>
+
+        <!-- Card de producto 2 -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="324dp"
+                android:background="@drawable/button_border"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/product_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    tools:text="Los Osos" />
+
+                <TextView
+                    android:id="@+id/product_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="27€/KG à partir de 10kg" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:padding="4dp"
+                        android:text="Lavé"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:padding="4dp"
+                        android:text="Colombie"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:padding="4dp"
+                        android:text="Filtre"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="10dp"
+                        android:padding="4dp"
+                        android:text="Fruite"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/add_button"
+                    android:layout_width="300dp"
+                    android:layout_height="35"
+                    android:layout_gravity="center"
+                    android:text="ADD" />
+
+            </LinearLayout>
+
+        <!-- Card de producto 3 -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="480dp"
+            android:background="@drawable/button_border"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/product_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                tools:text="Nicaragua - El arbol" />
+
+            <TextView
+                android:id="@+id/product_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                tools:text="40€/KG à partir de 10kg" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:padding="4dp"
+                    android:text="Anaerobique"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:padding="4dp"
+                    android:text="Nicaragua"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:padding="4dp"
+                    android:text="Filtre"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:padding="4dp"
+                    android:text="Exotique"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/add_button"
+                android:layout_width="300dp"
+                android:layout_height="35"
+                android:layout_gravity="center"
+                android:text="ADD" />
+
+        </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</FrameLayout>

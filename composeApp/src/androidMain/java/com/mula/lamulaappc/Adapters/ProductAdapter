@@ -1,0 +1,19 @@
+package com.mula.lamulaappc.Adapters
+
+import android.content.Context
+import android.view.LayoutInflater
+import android.view.View
+import android.view.ViewGroup
+import androidx.recyclerview.widget.RecyclerView.Adapter
+import androidx.recyclerview.widget.RecyclerView.ViewHolder
+import com.bumptech.glide.Glide
+import com.mula.lamulaappc.Models.SelectedImageModel
+import com.mula.lamulaappc.R
+import androidx.databinding.DataBindingUtil
+import com.mula.lamulaappc.databinding.ItemSelectedImagesBinding
+
+class ProductAdapter(
+private val products: List<Product>) : RecyclerView.Adapter<ProductViewHolder>()
+{
+
+}
