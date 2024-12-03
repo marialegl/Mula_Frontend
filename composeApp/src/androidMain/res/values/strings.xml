@@ -1,6 +1,16 @@
 <resources>
 
     <!-- strings.xml -->
+    <string name="your_order">Your Order</string>
+
+    <string name="items">Items</string>
+
+    <string name="price">Price</string>
+
+    <string name="qty">Qty</string>
+
+    <string name="crispy_yam_">Crispy Yam Fries</string>
+
     <string name="my_list">My list</string>
 
     <string name="discounts">Discounts</string>
