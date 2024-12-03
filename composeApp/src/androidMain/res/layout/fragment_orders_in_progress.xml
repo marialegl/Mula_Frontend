@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".client.Bottom_Nav_Fragments_Client.FragmentStoreC">
+
+    <!-- Include fragment -->
+    <include
+        layout="@layout/fragment_home_c"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Include toolbar -->
+    <include
+        layout="@layout/toolbar"
+        app:layout_constraintTop_toBottomOf="@+id/fragment_home_c"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
+    <!-- Contenedor de los rectángulos -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/gridContainer"
+        android:layout_width="350dp"
+        android:layout_height="550dp"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_margin="8dp">
+
+        <View
+            android:id="@+id/rectangle_5"
+            android:layout_width="330dp"
+            android:layout_height="52dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="142dp"
+            android:background="@drawable/rectangle_5">
+
+            <TextView
+                android:id="@+id/in_progress"
+                android:layout_width="100dp"
+                android:layout_height="28dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="16dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="122dp"
+                android:text="@string/in_progress"
+                android:textAppearance="@style/in_progress"
+                android:lineSpacingExtra="14sp"
+                android:translationY="-7.2sp"
+                android:gravity="center_horizontal|top"
+                />
+
+            <TextView
+                android:id="@+id/order_place"
+                android:layout_width="100dp"
+                android:layout_height="28dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="140dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="122dp"
+                android:text="@string/order_place"
+                android:textAppearance="@style/order_place"
+                android:lineSpacingExtra="14sp"
+                android:translationY="-7.2sp"
+                android:gravity="center_horizontal|top"
+                />
+        </View>
+
+        <View
+            android:id="@+id/rectangle_5"
+            android:layout_width="330dp"
+            android:layout_height="52dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="142dp"
+            android:background="@drawable/rectangle_5">
+
+            <TextView
+                android:id="@+id/deliverying"
+                android:layout_width="367dp"
+                android:layout_height="28dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="24dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="164dp"
+                android:text="@string/deliverying"
+                android:textAppearance="@style/deliverying"
+                android:lineSpacingExtra="14sp"
+                android:translationY="-7.2sp"
+                android:gravity="top"
+                />
+        </View>
+
+        <View
+            android:id="@+id/rectangle_5"
+            android:layout_width="330dp"
+            android:layout_height="52dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="142dp"
+            android:background="@drawable/rectangle_5">
+
+            <TextView
+                android:id="@+id/day_5h_35m_"
+                android:layout_width="322dp"
+                android:layout_height="28dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="24dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="185dp"
+                android:text="@string/day_5h_35m_"
+                android:textAppearance="@style/day_5h_35m_"
+                android:lineSpacingExtra="14sp"
+                android:translationY="-7.2sp"
+                android:gravity="top"
+                />
+
+        </View>
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/frame_2015"
+            android:layout_width="370dp"
+            android:layout_height="130dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="16dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="227dp"
+            android:background="@drawable/frame_2015">
+
+            <RelativeLayout
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/frame_2013"
+                android:layout_width="292dp"
+                android:layout_height="47dp">
+
+                <TextView
+                    android:id="@+id/bresil_mogi"
+                    android:layout_width="271dp"
+                    android:layout_height="24dp"
+                    android:text="@string/bresil_mogi"
+                    android:textAppearance="@style/bresil_mogi"
+                    android:gravity="top"
+                    />
+
+                <TextView
+                    android:id="@+id/kg_partir_d"
+                    android:layout_width="148dp"
+                    android:layout_height="19dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="-2.5dp"
+                    android:text="@string/kg_partir_d"
+                    android:textAppearance="@style/kg_partir_d"
+                    android:gravity="top"
+                    />
+
+                <View
+                    android:id="@+id/group_24"
+                    android:layout_width="25.39dp"
+                    android:layout_height="25.39dp"
+                    />
+
+                <RelativeLayout
+                    xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/frame_2111"
+                    android:layout_width="280dp"
+                    android:layout_height="15dp">
+
+                    <View
+                        android:id="@+id/ellipse_409"
+                        android:layout_width="10.47dp"
+                        android:layout_height="10.47dp"
+                        android:background="#000000"
+                        />
+
+                    <TextView
+                        android:id="@+id/nature"
+                        android:layout_width="38dp"
+                        android:layout_height="15dp"
+                        android:text="@string/nature"
+                        android:textAppearance="@style/nature"
+                        android:gravity="top"
+                        />
+
+                    <View
+                        android:id="@+id/ellipse_409"
+                        android:layout_width="10.47dp"
+                        android:layout_height="10.47dp"
+                        android:background="#CFB8FF"
+                        />
+
+                    <TextView
+                        android:id="@+id/bresil"
+                        android:layout_width="32dp"
+                        android:layout_height="15dp"
+                        android:text="@string/bresil"
+                        android:textAppearance="@style/bresil"
+                        android:gravity="top"
+                        />
+
+                    <View
+                        android:id="@+id/ellipse_409"
+                        android:layout_width="10.47dp"
+                        android:layout_height="10.47dp"
+                        android:background="#FCD7AD"
+                        />
+
+                    <TextView
+                        android:id="@+id/espresso"
+                        android:layout_width="53dp"
+                        android:layout_height="15dp"
+                        android:text="@string/espresso"
+                        android:textAppearance="@style/espresso"
+                        android:gravity="top"
+                        />
+
+                    <View
+                        android:id="@+id/ellipse_409"
+                        android:layout_width="10.47dp"
+                        android:layout_height="10.47dp"
+                        android:background="#FFF2C2"
+                        />
+
+                    <TextView
+                        android:id="@+id/chocolat"
+                        android:layout_width="50dp"
+                        android:layout_height="15dp"
+                        android:text="@string/chocolat"
+                        android:textAppearance="@style/chocolat"
+                        android:gravity="top"
+                        />
+
+                    <TextView
+                        android:id="@+id/kg_3_"
+                        android:layout_width="219dp"
+                        android:layout_height="15dp"
+                        android:text="@string/kg_3_"
+                        android:textAppearance="@style/kg_3_"
+                        android:gravity="center_horizontal|top"
+                        />
+
+                </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,6 +3,16 @@
     <!-- strings.xml -->
     <string name="your_order">Your Order</string>
 
+    <string name="in_progress">In progress</string>
+
+    <string name="order_place">Order placed</string>
+
+    <string name="deliverying">Deliverying: Thursday 01 november | 10am-2pm</string>
+
+    <string name="day_5h_35m_">0 Day 5h 35m left to complete your order</string>
+
+    <string name="kg_3_">ORDER - 4 +</string>
+
     <string name="items">Items</string>
 
     <string name="price">Price</string>
