@@ -207,6 +207,7 @@
             android:background="@color/fillColor"
             android:color="@color/fillColor"
             android:text="ORDER"
+            rad
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             />

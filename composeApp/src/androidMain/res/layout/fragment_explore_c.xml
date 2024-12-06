@@ -1,36 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".client.Bottom_Nav_Fragments_Client.FragmentStoreC">
+    tools:context=".FragmentStoreC">
 
-    <!-- Include fragment -->
+    <!-- Toolbar -->
     <include
-        layout="@layout/fragment_home_c"
+        layout="@layout/toolbar"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- Include toolbar -->
-    <include
-        layout="@layout/toolbar"
-        app:layout_constraintTop_toBottomOf="@+id/fragment_home_c"
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:fillViewport="true"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/bottomNavigation">
 
 
         <!-- Contenedor de los rectángulos -->
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/gridContainer"
             android:layout_width="350dp"
-            android:layout_height="550dp"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_gravity="center"
             app:layout_constraintTop_toBottomOf="@id/toolbar"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            android:layout_margin="8dp">
+            android:layout_margin="16dp">
 
             <!-- Rectángulo 1 -->
             <LinearLayout
@@ -161,18 +167,18 @@
                 android:orientation="vertical"
                 android:gravity="center"
                 android:background="@drawable/rectangle_border"
-                android:layout_marginVertical="16dp"
                 app:layout_constraintWidth_percent="0.45"
                 app:layout_constraintHeight_percent="0.3"
                 app:layout_constraintTop_toBottomOf="@id/rect3"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toStartOf="@id/rect6">
+                app:layout_constraintEnd_toStartOf="@id/rect6"
+                android:layout_marginVertical="16dp">
 
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/image"
-                    android:contentDescription="Image 5" />
+                    android:src="@drawable/image5"
+                    android:contentDescription="Imagen 5" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -191,18 +197,18 @@
                 android:orientation="vertical"
                 android:gravity="center"
                 android:background="@drawable/rectangle_border"
-                android:layout_marginVertical="16dp"
                 app:layout_constraintWidth_percent="0.45"
                 app:layout_constraintHeight_percent="0.3"
                 app:layout_constraintTop_toBottomOf="@id/rect4"
                 app:layout_constraintStart_toEndOf="@id/rect5"
-                app:layout_constraintEnd_toEndOf="parent">
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginVertical="16dp">
 
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:src="@drawable/image"
-                    android:contentDescription="Image 6" />
+                    android:src="@drawable/image6"
+                    android:contentDescription="Imagen 6" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -213,9 +219,73 @@
                     android:gravity="center" />
             </LinearLayout>
 
+            <!-- Rectángulo 7 -->
+            <LinearLayout
+                android:id="@+id/rect7"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/rectangle_border"
+                app:layout_constraintWidth_percent="0.45"
+                app:layout_constraintHeight_percent="0.3"
+                app:layout_constraintTop_toBottomOf="@id/rect5"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/rect8"
+                android:layout_marginVertical="16dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/image7"
+                    android:contentDescription="Imagen 7" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tool 7"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+            <!-- Rectángulo 8 -->
+            <LinearLayout
+                android:id="@+id/rect8"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:background="@drawable/rectangle_border"
+                app:layout_constraintWidth_percent="0.45"
+                app:layout_constraintHeight_percent="0.3"
+                app:layout_constraintTop_toBottomOf="@id/rect6"
+                app:layout_constraintStart_toEndOf="@id/rect7"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginVertical="16dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/image8"
+                    android:contentDescription="Imagen 8" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Tool 8"
+                    android:textColor="@color/black"
+                    android:textSize="12sp"
+                    android:gravity="center" />
+            </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
-    </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
 
+    <!-- Include fragment -->
+    <include
+        layout="@layout/fragment_home_c"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
-
-</FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

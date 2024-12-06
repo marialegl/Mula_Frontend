@@ -31,12 +31,12 @@
 
     <string name="kg_partir_d">23\u00e2\u0082\u00ac/KG \u00c3\u00a0 partir de 10kg</string>
 
-    <string name="nature">NATURE</string>
+    <string name="nature">Nature</string>
 
     <string name="espresso">ESPRESSO</string>
 
     <!-- strings.xml -->
-    <string name="chocolat">CHOCOLAT</string>
+    <string name="chocolat">Chocolat</string>
 
     <string name="add">
         ADD
